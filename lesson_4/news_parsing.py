@@ -1,10 +1,7 @@
 from __future__ import annotations
 import requests
 from lxml import html
-from pprint import pprint
-import re
 from pymongo import MongoClient
-import time
 
 headers = requests.utils.default_headers()
 headers.update({'User-Agent': 'Chrome/94.0.4606.61'})
